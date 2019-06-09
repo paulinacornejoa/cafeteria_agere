@@ -4,8 +4,11 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #fff;
+  font-family: $mono;
 }
-
+ul img {
+  width: 30%;
+}
 li {
   float: left;
 }

@@ -1,0 +1,85 @@
+.img_static {
+  position: static;
+  width: 70%;
+}
+
+.img_2 {
+
+}
+
+.img_3 {
+
+}
+
+.img_4 {
+width: 20%;
+}
+
+.section_relative {
+  position: absolute;
+}
+
+.img_static {
+position: static;
+width: 70%;
+}
+h1,h3 {
+  position: absolute;
+  left: 1080px;
+}
+.orange_box, .yellow_box {
+  height: 200px;
+  width: 200px;
+}
+.orange_box {
+  background-color: $flame;
+  position: absolute;
+  left: 1050px;
+  top: 350px;
+}
+.yellow_box {
+  background-color: $coral;
+  position: absolute;
+  left: 1000px;
+  top: 300px;
+}
+.white_box {
+  background-color: $white;
+  width: 37%;
+  height: 10%;
+  position: absolute;
+  left: 483px;
+  top: 355px;
+}
+div ul {
+  display: block;
+  padding-left: 20px;
+}
+
+.blue_box {
+  background-color: $blue-france;
+  width: 37%;
+  height: 29%;
+  position: absolute;
+  left: 483px;
+  top: 489px;
+}
+
+.main_text {
+  position: absolute;
+  left: 70px;
+  top: 500px;
+  text-align: left;
+}
+
+.img_map {
+  position: relative;
+  width: 30%;
+  left: 465px;
+  top: 25px;
+}
+.img_machine {
+  position: absolute;
+  width: 43%;
+  top: 489px;
+}

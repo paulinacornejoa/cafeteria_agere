@@ -1,5 +1,46 @@
 body {
   font-family: 'PT Mono', monospace;
   font-family: 'Roboto', sans-serif;
- 
+
+}
+h1, h2 {
+  font-family: $mono;
+  font-weight: $regular;
+  position: relative;
+}
+h3, h4 {
+  font-family: $roboto;
+  font-weight: $light;
+  position: relative;
+
+}
+h1 {
+  font-size: $xxx-large;
+}
+h2 {
+  font-size: $x-large;
+}
+h3 {
+  font-size: $x-large;
+}
+h4 {
+  font-size: $medium;
+  width: 19%;
+}
+.white_box {
+
+li {
+  font-family: $mono;
+  font-size: $xx-large;
+ }
+
+li p {
+
+  font-family: $roboto;
+  font-size: $medium;
+ }
+ul li {
+  padding-left: 50px;
+  padding-top: 20px;}
+
 }

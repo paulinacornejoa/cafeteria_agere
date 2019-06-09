@@ -1,0 +1,18 @@
+/*Componentes del sitio*/
+
+@import "abstract/variables";
+
+@import "vendors/vendors";
+
+@import "base/reset";
+@import "base/base";
+@import "base/typography";
+
+@import "components/buttons";
+
+@import "layout/header";
+@import "layout/section";
+
+@import "pages/pages";
+
+@import "themes/themes";
