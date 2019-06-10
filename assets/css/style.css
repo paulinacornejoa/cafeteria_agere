@@ -1,4 +1,49 @@
 /*Componentes del sitio*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -48,8 +93,55 @@ h4 {
   font-size: 16px;
 }
 .white_box ul li {
-  padding-left: 50px;
+  padding-left: 40px;
   padding-top: 20px;
+}
+
+.button_login {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: "PT Mono", monospace;
+  color: #A2A2A2;
+  font-size: 18px;
+  background: #FFF;
+  padding: 10px 20px 10px 20px;
+  border: solid #A2A2A2 1px;
+  text-decoration: none;
+  position: relative;
+  left: 600px;
+  top: 10px;
+}
+
+.button_login:hover {
+  border: solid #000000 1px;
+  color: #000000;
+}
+
+.button_signup {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: "PT Mono", monospace;
+  color: #FFF;
+  font-size: 18px;
+  background: #4CA866;
+  padding: 10px 20px 10px 20px;
+  border: solid #A2A2A2 0px;
+  text-decoration: none;
+  position: relative;
+  left: 600px;
+  top: 10px;
+}
+
+.button_signup:hover {
+  border: 0px;
+  background-color: #9DCFAB;
+  color: #454545;
+}
+
+.button_login, .button_signup {
+  margin-top: 10px;
 }
 
 ul {
@@ -78,7 +170,11 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  color: #000000;
+}
+
+.about, .shop {
+  padding-top: 30px;
 }
 
 .img_static {
@@ -99,28 +195,16 @@ li a:hover {
   width: 70%;
 }
 
-h1, h3 {
+h1 {
   position: absolute;
   left: 1080px;
 }
 
-.orange_box, .yellow_box {
-  height: 200px;
-  width: 200px;
-}
-
-.orange_box {
-  background-color: #E4572E;
+h3 {
   position: absolute;
-  left: 1050px;
-  top: 350px;
-}
-
-.yellow_box {
-  background-color: #FA824C;
-  position: absolute;
-  left: 1000px;
-  top: 300px;
+  z-index: 3;
+  left: 1080px;
+  top: 190px;
 }
 
 .white_box {
@@ -164,6 +248,34 @@ div ul {
   position: absolute;
   width: 43%;
   top: 489px;
+}
+
+.orange_box, .yellow_box {
+  height: 150px;
+  width: 150px;
+}
+
+.orange_box {
+  background-color: #E4572E;
+  position: absolute;
+  z-index: 1;
+  left: 1000px;
+  top: 340px;
+}
+
+.yellow_box {
+  background-color: #FA824C;
+  position: absolute;
+  z-index: 2;
+  left: 970px;
+  top: 320px;
+}
+
+.img_grain {
+  width: 6%;
+  position: relative;
+  left: -45px;
+  top: 174px;
 }
 
 /*# sourceMappingURL=style.css.map */

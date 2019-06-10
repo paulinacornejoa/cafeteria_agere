@@ -3,14 +3,6 @@
   width: 70%;
 }
 
-.img_2 {
-
-}
-
-.img_3 {
-
-}
-
 .img_4 {
 width: 20%;
 }
@@ -20,29 +12,22 @@ width: 20%;
 }
 
 .img_static {
-position: static;
-width: 70%;
+  position: static;
+  width: 70%;
 }
-h1,h3 {
+
+h1 {
   position: absolute;
   left: 1080px;
 }
-.orange_box, .yellow_box {
-  height: 200px;
-  width: 200px;
-}
-.orange_box {
-  background-color: $flame;
+
+h3  {
   position: absolute;
-  left: 1050px;
-  top: 350px;
+  z-index: 3;
+  left: 1080px;
+  top: 190px;
 }
-.yellow_box {
-  background-color: $coral;
-  position: absolute;
-  left: 1000px;
-  top: 300px;
-}
+
 .white_box {
   background-color: $white;
   width: 37%;
@@ -82,4 +67,30 @@ div ul {
   position: absolute;
   width: 43%;
   top: 489px;
+}
+
+.orange_box, .yellow_box {
+  height: 150px;
+  width: 150px;
+}
+
+.orange_box {
+  background-color: $flame;
+  position: absolute;
+  z-index: 1;
+  left: 1000px;
+  top: 340px;
+}
+.yellow_box {
+  background-color: $coral;
+  position: absolute;
+  z-index: 2;
+  left: 970px;
+  top: 320px;
+}
+.img_grain {
+  width: 6%;
+  position: relative;
+  left: -45px;
+  top: 174px;
 }
